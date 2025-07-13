@@ -2,7 +2,6 @@
 
 This is a simple PHP script to decrypt encrypted Roundcube passwords, typically found in session data or user preferences.
 
-> 🛡️ This tool is for **educational, forensic, or incident response purposes only**. Do not use it on systems you do not own or have explicit permission to audit.
 
 ---
 
