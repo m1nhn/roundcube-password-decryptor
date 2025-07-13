@@ -18,21 +18,3 @@ To decrypt:
 2. Extract the IV.
 3. Extract the ciphertext.
 4. Decrypt using `openssl_decrypt()` with the correct cipher and key.
-
----
-
-## ✅ Usage
-
-1. Clone or download this repository.
-2. Open the `decrypt.php` file and:
-   - Replace the `$encrypted` variable with the base64 string you found in the Roundcube database (e.g., from the `session` or `preferences` columns).
-   - Replace the `$key` with the 24-byte DES key from your Roundcube configuration:
-
-     ```php
-     // config/config.inc.php
-     $config['des_key'] = 'rcmail-!aaaaaaaa*Str';  // Example only
-     ```
-
-3. Run the script:
-   ```bash
-   php decrypt.php
