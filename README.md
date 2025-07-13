@@ -31,7 +31,7 @@ To decrypt:
 
      ```php
      // config/config.inc.php
-     $config['des_key'] = 'rcmail-!24ByteDESkey*Str';  // Example only
+     $config['des_key'] = 'rcmail-!aaaaaaaa*Str';  // Example only
      ```
 
 3. Run the script:
